@@ -98,6 +98,9 @@
     <EmbeddedResource Include="Formularios\FormCadastroDeProduto.resx">
       <DependentUpon>FormCadastroDeProduto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FormCadastroDeVeiculos.resx">
+      <DependentUpon>FormCadastroDeVeiculos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\FormReajusteSalarial.resx">
       <DependentUpon>FormReajusteSalarial.cs</DependentUpon>
     </EmbeddedResource>

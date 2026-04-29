@@ -41,7 +41,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(123, 9);
+            this.label1.Location = new System.Drawing.Point(123, 53);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(526, 25);
             this.label1.TabIndex = 0;
@@ -51,9 +51,9 @@
             // 
             this.btCadastroDeProdutos.BackColor = System.Drawing.Color.Coral;
             this.btCadastroDeProdutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCadastroDeProdutos.Location = new System.Drawing.Point(128, 108);
+            this.btCadastroDeProdutos.Location = new System.Drawing.Point(128, 139);
             this.btCadastroDeProdutos.Name = "btCadastroDeProdutos";
-            this.btCadastroDeProdutos.Size = new System.Drawing.Size(521, 40);
+            this.btCadastroDeProdutos.Size = new System.Drawing.Size(521, 47);
             this.btCadastroDeProdutos.TabIndex = 1;
             this.btCadastroDeProdutos.Text = "CADASTRO DE PRODUTOS";
             this.btCadastroDeProdutos.UseVisualStyleBackColor = false;
@@ -63,9 +63,9 @@
             // 
             this.btCadastrarVeiculos.BackColor = System.Drawing.Color.Gold;
             this.btCadastrarVeiculos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btCadastrarVeiculos.Location = new System.Drawing.Point(128, 154);
+            this.btCadastrarVeiculos.Location = new System.Drawing.Point(128, 192);
             this.btCadastrarVeiculos.Name = "btCadastrarVeiculos";
-            this.btCadastrarVeiculos.Size = new System.Drawing.Size(521, 40);
+            this.btCadastrarVeiculos.Size = new System.Drawing.Size(521, 47);
             this.btCadastrarVeiculos.TabIndex = 2;
             this.btCadastrarVeiculos.Text = "CADASTRO DE VEÍCULOS";
             this.btCadastrarVeiculos.UseVisualStyleBackColor = false;
@@ -75,9 +75,9 @@
             // 
             this.btRegistraNotas.BackColor = System.Drawing.Color.LimeGreen;
             this.btRegistraNotas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btRegistraNotas.Location = new System.Drawing.Point(128, 200);
+            this.btRegistraNotas.Location = new System.Drawing.Point(128, 245);
             this.btRegistraNotas.Name = "btRegistraNotas";
-            this.btRegistraNotas.Size = new System.Drawing.Size(521, 40);
+            this.btRegistraNotas.Size = new System.Drawing.Size(521, 47);
             this.btRegistraNotas.TabIndex = 3;
             this.btRegistraNotas.Text = "REGISTRAR NOTAS";
             this.btRegistraNotas.UseVisualStyleBackColor = false;
@@ -87,9 +87,9 @@
             // 
             this.btUsabilidade.BackColor = System.Drawing.Color.Tan;
             this.btUsabilidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btUsabilidade.Location = new System.Drawing.Point(128, 246);
+            this.btUsabilidade.Location = new System.Drawing.Point(128, 298);
             this.btUsabilidade.Name = "btUsabilidade";
-            this.btUsabilidade.Size = new System.Drawing.Size(521, 40);
+            this.btUsabilidade.Size = new System.Drawing.Size(521, 47);
             this.btUsabilidade.TabIndex = 4;
             this.btUsabilidade.Text = "EXEMPLO COM USABILIDADE";
             this.btUsabilidade.UseVisualStyleBackColor = false;
@@ -99,9 +99,9 @@
             // 
             this.btRegistroNotas.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btRegistroNotas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btRegistroNotas.Location = new System.Drawing.Point(128, 292);
+            this.btRegistroNotas.Location = new System.Drawing.Point(128, 351);
             this.btRegistroNotas.Name = "btRegistroNotas";
-            this.btRegistroNotas.Size = new System.Drawing.Size(521, 40);
+            this.btRegistroNotas.Size = new System.Drawing.Size(521, 47);
             this.btRegistroNotas.TabIndex = 5;
             this.btRegistroNotas.Text = "REGISTRO DE NOTAS";
             this.btRegistroNotas.UseVisualStyleBackColor = false;
@@ -111,9 +111,9 @@
             // 
             this.btReajuste.BackColor = System.Drawing.Color.Crimson;
             this.btReajuste.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btReajuste.Location = new System.Drawing.Point(128, 338);
+            this.btReajuste.Location = new System.Drawing.Point(128, 404);
             this.btReajuste.Name = "btReajuste";
-            this.btReajuste.Size = new System.Drawing.Size(521, 40);
+            this.btReajuste.Size = new System.Drawing.Size(521, 47);
             this.btReajuste.TabIndex = 6;
             this.btReajuste.Text = "REAJUSTE SALÁRIAL";
             this.btReajuste.UseVisualStyleBackColor = false;
@@ -124,7 +124,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 576);
             this.Controls.Add(this.btReajuste);
             this.Controls.Add(this.btRegistroNotas);
             this.Controls.Add(this.btUsabilidade);

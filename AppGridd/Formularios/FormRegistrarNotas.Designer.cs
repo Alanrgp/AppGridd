@@ -33,6 +33,10 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvTabela = new System.Windows.Forms.DataGridView();
+            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nota1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nota2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Media = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label7 = new System.Windows.Forms.Label();
             this.btAdd = new System.Windows.Forms.Button();
             this.txtMedia = new System.Windows.Forms.TextBox();
@@ -48,10 +52,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.Nome = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nota1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nota2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Media = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvTabela)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,6 +69,36 @@
             this.dgvTabela.Name = "dgvTabela";
             this.dgvTabela.Size = new System.Drawing.Size(695, 210);
             this.dgvTabela.TabIndex = 50;
+            // 
+            // Nome
+            // 
+            this.Nome.HeaderText = "NOME :";
+            this.Nome.Name = "Nome";
+            this.Nome.Width = 294;
+            // 
+            // Nota1
+            // 
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Nota1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.Nota1.HeaderText = "NOTA 1 :";
+            this.Nota1.Name = "Nota1";
+            this.Nota1.Width = 120;
+            // 
+            // Nota2
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Nota2.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Nota2.HeaderText = "NOTA 2 :";
+            this.Nota2.Name = "Nota2";
+            this.Nota2.Width = 120;
+            // 
+            // Media
+            // 
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Media.DefaultCellStyle = dataGridViewCellStyle4;
+            this.Media.HeaderText = "MÉDIA :";
+            this.Media.Name = "Media";
+            this.Media.Width = 120;
             // 
             // label7
             // 
@@ -218,36 +248,6 @@
             this.label1.Size = new System.Drawing.Size(233, 25);
             this.label1.TabIndex = 39;
             this.label1.Text = "REGISTRAR NOTAS ";
-            // 
-            // Nome
-            // 
-            this.Nome.HeaderText = "NOME :";
-            this.Nome.Name = "Nome";
-            this.Nome.Width = 294;
-            // 
-            // Nota1
-            // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Nota1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.Nota1.HeaderText = "NOTA 1 :";
-            this.Nota1.Name = "Nota1";
-            this.Nota1.Width = 120;
-            // 
-            // Nota2
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Nota2.DefaultCellStyle = dataGridViewCellStyle3;
-            this.Nota2.HeaderText = "NOTA 2 :";
-            this.Nota2.Name = "Nota2";
-            this.Nota2.Width = 120;
-            // 
-            // Media
-            // 
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Media.DefaultCellStyle = dataGridViewCellStyle4;
-            this.Media.HeaderText = "MÉDIA :";
-            this.Media.Name = "Media";
-            this.Media.Width = 120;
             // 
             // FormRegistrarNotas
             // 
